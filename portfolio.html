@@ -27,14 +27,28 @@
             <li>
               <a class="logo link link-margin" href="./index.html"><span class="logo-span">Web</span>Studio</a>
             </li>
-            <li><a class="link link-margin" href="./index.html">Studio</a></li>
-            <li><a class="link link-margin is-active" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="link link-margin is-active" href="./index.html">Studio</a></li>
+            <li><a class="link link-margin" href="./portfolio.html">Portfolio</a></li>
             <li><a class="link link-margin" href="#">Contacts</a></li>
           </ul>
         </nav>
         <ul class="main-nav__links flex-container">
-          <li><a class="main-nav__contacts link link-margin" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="main-nav__contacts link" href="tel:+12127724150">+1 212-772-4150</a></li>
+          <li>
+            <a class="main-nav__contacts link link-margin" href="mailto:info@example.com">
+              <svg class="svg-small" width="16px" height="10px">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="main-nav__contacts link" href="tel:+12127724150">
+              <svg class="svg-small" width="10px" height="12px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +1 212-772-4150</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -121,18 +135,61 @@
       </section>
     </main>
     <footer class="main-footer">
-      <div class="container">
-        <a class="logo-bottom link" href="./index.html"><span class="logo-span">Web</span>Studio</a>
-        <address class="main-footer__address">
-          <p>
-            695 Park Ave, New York, NY 10065, <br />
-            United States
-          </p>
-          <ul class="">
-            <li class="main-footer__link"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-            <li class="main-footer__link"><a class="link" href="tel:+12127724150">+1 212-772-4150</a></li>
+      <div class="container flex-container">
+        <div>
+          <a class="logo-bottom link" href="./index.html"><span class="logo-span">Web</span>Studio</a>
+          <address class="main-footer__address">
+            <p>
+              695 Park Ave, New York, NY 10065, <br />
+              United States
+            </p>
+            <ul class="">
+              <li class="main-footer__link"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+              <li class="main-footer__link"><a class="link" href="tel:+12127724150">+1 212-772-4150</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="main-footer__join-us">
+          <h2 class="main-footer__join-us__title">Join Us</h2>
+          <ul class="main-footer__svg-container">
+            <li>
+              <a href="#">
+                <div class="main-footer__icon-wrapper">
+                  <svg class="main-footer__svg" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="main-footer__icon-wrapper">
+                  <svg class="main-footer__svg" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="main-footer__icon-wrapper">
+                  <svg class="main-footer__svg" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-fb"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="main-footer__icon-wrapper">
+                  <svg class="main-footer__svg" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
