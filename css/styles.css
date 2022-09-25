@@ -588,7 +588,10 @@ fill: var(--clr-white);
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+
     color: var(--clr-heading-primary);
+
 
     margin-bottom: 50px;
 }
