@@ -298,12 +298,16 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    outline: none;
 }
 
-.section-four__icon-wrapper:hover {
+.section-four__icon-wrapper:hover,
+.section-four__icon-wrapper:focus {
     background-color: var(--clr-accent);
 }
-.section-four__icon-wrapper:hover .section-four__svg{
+.section-four__icon-wrapper:hover .section-four__svg,
+.section-four__icon-wrapper:focus .section-four__svg
+{
     fill: var(--clr-white);
 }
 
