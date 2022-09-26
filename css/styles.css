@@ -326,6 +326,7 @@ body {
 
 .flex-container{
     display: flex;
+    align-items: baseline;
 }
 
 .flex-container-column{
@@ -592,11 +593,15 @@ color: var(--clr-white);
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
 }
 
-.main-footer__icon-wrapper:hover {
+.main-footer__icon-wrapper:hover,
+.main-footer__icon-wrapper:focus {
     background-color: var(--clr-accent);
 }
+
+
 
 .main-footer__svg{
 fill: var(--clr-white);
