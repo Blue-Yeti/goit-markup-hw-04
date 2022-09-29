@@ -282,8 +282,8 @@ body {
 .section-four__card__wrapper{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .section-four__card-header{
     font-weight: 500;
@@ -483,9 +483,11 @@ margin-right: 93px;
     color: #FFFFFF;
 }
 
+.main-footer__link{
+    margin-top: 9px;
+}
 .main-footer__link > a{
     color: var(--clr-secondary);
-    margin-top: 9px;
 }
 
 
@@ -836,4 +838,16 @@ fill: var(--clr-white);
 .section-four__icon-wrapper:hover .section-four__svg,
 .section-four__icon-wrapper:focus .section-four__svg {
     fill: var(--clr-white);
+}
+
+.main-footer__p-link{
+    text-decoration: none;
+    color: var(--clr-white);
+    line-height: 1.71;
+}
+
+.main-footer__p-link:hover,
+.main-footer__p-link:focus{
+    color: var(--clr-accent);
+    outline: none;
 }
