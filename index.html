@@ -56,7 +56,7 @@
       <section class="section-one section">
         <div class="container flex-container-column">
           <h1 class="section-one__header">EFFECTIVE SOLUTIONS FOR <br />YOUR BUSINESS</h1>
-          <button class="section-one__btn" type="button">Request our service</button>
+          <button class="section-one__btn" type="button" data-modal-open>Request our service</button>
         </div>
       </section>
       <section class="section-two section">
@@ -371,5 +371,17 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button class="modal-window__close-btn" data-modal-close>
+          <svg class="modal-window__svg" width="11px" height="11px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
